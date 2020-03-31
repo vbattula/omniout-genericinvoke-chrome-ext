@@ -1,0 +1,24 @@
+{
+    "name": "Vlocity Generic Invoke Api Append",
+    "description": "Chrome Extension to append sClassName and sMethodName to GenericInvoke and invoke endpoints. This leaves the Integration Procedure and Open Interface classname in the Api to enable proper monitoring on browser as well as server",
+    "version": "1",
+    "manifest_version": 2,
+    "author" : "Vijay Battula <vbattula@salesforce.com>",
+    "icons": {
+      "16": "images/genericinvoke-ext_16.png",
+      "48": "images/genericinvoke-ext_16.png",
+      "128": "images/genericinvoke-ext_128.png"
+    },
+    "browser_action" : {
+        "default_icon" : "images/genericinvoke-ext.png",
+        "default_popup" : "html/home.html"
+    },
+    "background": {
+        "scripts": ["app/background.js"]
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://*/*"
+      ]
+  }
