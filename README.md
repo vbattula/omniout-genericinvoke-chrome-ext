@@ -1,0 +1,1 @@
+Chrome Extension to append sClassName and sMethodName to GenericInvoke and invoke endpoints. This leaves the Integration Procedure and Open Interface classname in the Api to enable proper monitoring on browser as well as server
